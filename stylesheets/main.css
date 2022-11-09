@@ -1,0 +1,35 @@
+body {
+  background-color: rgb(250, 249, 249);
+  padding-left: 50px;
+  padding-right: 50px;
+}
+header {
+  padding: 0;
+  overflow: hidden;
+  text-align: center;
+}
+nav {
+  background-color: rgb(245, 164, 64);
+  padding: 10px 0px;
+  margin: 0px;
+  font-size: 20px;
+  text-align: left;
+}
+nav ul li {
+  list-style: none;
+}
+a {
+  color: rgb(34, 34, 34);
+}
+h1 {
+  color: black;
+  text-align: center;
+}
+footer {
+  background-color: rgb(245, 164, 64);
+  padding: 10px 10px;
+  margin: 10px 10px;
+}
+footer a {
+  color: rgb(46, 28, 146);
+}
