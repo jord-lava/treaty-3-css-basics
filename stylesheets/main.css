@@ -1,35 +1,62 @@
+/* main style sheet for this web site */
+
+/* styles body */
 body {
+  /* changes the background color */
   background-color: rgb(250, 249, 249);
+  /* adds padding */
   padding-left: 50px;
   padding-right: 50px;
 }
-header {
-  padding: 0;
-  overflow: hidden;
-  text-align: center;
-}
+
+/* styles nav */
 nav {
+  /* change the backcground color */
   background-color: rgb(245, 164, 64);
+  /* padding and margin */
   padding: 10px 0px;
   margin: 0px;
+  /* changes font size */
   font-size: 20px;
+  /* makes the text go to the left */
   text-align: left;
 }
+
+/* styles list items in an unordered list in the nav bar */
 nav ul li {
+  /* removes bullet point from the list */
   list-style: none;
 }
+
+/* styles the achores */
 a {
+  /* changes the text color to black */
   color: rgb(34, 34, 34);
 }
+
+/* styles the h1 */
 h1 {
+  /* changes text color to black */
   color: black;
+  /* aligns text to the center/middle */
   text-align: center;
 }
+
+/* styles the footer */
 footer {
+  /* changes background color */
   background-color: rgb(245, 164, 64);
+
+  /* padding and margin */
   padding: 10px 10px;
   margin: 10px 10px;
 }
-footer a {
-  color: rgb(46, 28, 146);
+/* styles the list items in a unordered list in the footer */
+footer ul li {
+  /* aligns text to left */
+  text-align: left;
+  /* allows text to be in a line rather then on top of each other (like a list) */
+  display: inline-block;
+  /* gets rid of bullet point */
+  list-style: none;
 }
