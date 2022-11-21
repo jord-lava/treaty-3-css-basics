@@ -1,12 +1,20 @@
 /* main style sheet for this web site */
+/* 
+primary: 245, 164, 64
+secendacy: 
+*/
+html {
+  font-size: 62.5%;
+}
 
 /* styles body */
 body {
+  font-size: 1.6rem;
   /* changes the background color */
   background-color: rgb(250, 249, 249);
   /* adds padding */
-  padding-left: 50px;
-  padding-right: 50px;
+  margin-left: 5rem;
+  margin-right: 5rem;
 }
 
 /* styles nav */
@@ -14,10 +22,10 @@ nav {
   /* change the backcground color */
   background-color: rgb(245, 164, 64);
   /* padding and margin */
-  padding: 10px 0px;
-  margin: 0px;
+  padding: 1rem 0rem;
+  margin: 0rem;
   /* changes font size */
-  font-size: 20px;
+  font-size: 2rem;
   /* makes the text go to the left */
   text-align: left;
 }
@@ -28,6 +36,13 @@ nav ul li {
   list-style: none;
 }
 
+nav ul {
+  display: inline-block;
+}
+main {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
 /* styles the achores */
 a {
   /* changes the text color to black */
@@ -48,8 +63,8 @@ footer {
   background-color: rgb(245, 164, 64);
 
   /* padding and margin */
-  padding: 10px 10px;
-  margin: 10px 10px;
+  padding: 1rem 1rem;
+  margin: 1rem 1rem;
 }
 /* styles the list items in a unordered list in the footer */
 footer ul li {
