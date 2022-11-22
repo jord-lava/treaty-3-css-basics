@@ -1,10 +1,12 @@
 /* main style sheet for this web site */
 /* 
-primary: 245, 164, 64
-secendacy: 
+primary: #1649b6;
+secendacy: #103481;
+nats: #fda863;
 */
 html {
   font-size: 62.5%;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 /* styles body */
@@ -20,7 +22,7 @@ body {
 /* styles nav */
 nav {
   /* change the backcground color */
-  background-color: rgb(245, 164, 64);
+  background-color: #fda863;
   /* padding and margin */
   padding: 1rem 0rem;
   margin: 0rem;
@@ -43,6 +45,13 @@ main {
   margin-left: 1rem;
   margin-right: 1rem;
 }
+
+h2 {
+  color: #1649b6;
+}
+h3 {
+  color: #103481;
+}
 /* styles the achores */
 a {
   /* changes the text color to black */
@@ -55,12 +64,13 @@ h1 {
   color: black;
   /* aligns text to the center/middle */
   text-align: center;
+  font-size: 3.2rem;
 }
 
 /* styles the footer */
 footer {
   /* changes background color */
-  background-color: rgb(245, 164, 64);
+  background-color: #fda863;
 
   /* padding and margin */
   padding: 1rem 1rem;
