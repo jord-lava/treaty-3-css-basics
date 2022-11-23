@@ -15,32 +15,37 @@ body {
   /* changes the background color */
   background-color: rgb(250, 249, 249);
   /* adds padding */
-  margin-left: 5rem;
-  margin-right: 5rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
 }
 
 /* styles nav */
-nav {
+nav ul {
+  /* removes bullet point from the list */
+  list-style-type: none;
   /* change the backcground color */
   background-color: #fda863;
   /* padding and margin */
-  padding: 1rem 0rem;
-  margin: 0rem;
-  /* changes font size */
+  padding: 1.5rem;
+  overflow: hidden;
   font-size: 2rem;
-  /* makes the text go to the left */
-  text-align: left;
 }
 
 /* styles list items in an unordered list in the nav bar */
-nav ul li {
-  /* removes bullet point from the list */
-  list-style: none;
+nav li {
+  float: left;
 }
 
-nav ul {
-  display: inline-block;
+nav a {
+  display: block;
+  padding: 1.6rem;
 }
+
+nav a:focus,
+nav a:hover {
+  background-color: #eb9651;
+}
+
 main {
   margin-left: 1rem;
   margin-right: 1rem;
@@ -66,6 +71,9 @@ h1 {
   text-align: center;
   font-size: 3.2rem;
 }
+main {
+  padding: 1rem;
+}
 
 /* styles the footer */
 footer {
@@ -74,7 +82,6 @@ footer {
 
   /* padding and margin */
   padding: 1rem 1rem;
-  margin: 1rem 1rem;
 }
 /* styles the list items in a unordered list in the footer */
 footer ul li {
