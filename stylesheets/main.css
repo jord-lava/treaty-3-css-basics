@@ -1,25 +1,43 @@
 /* main style sheet for this web site */
+
 /* 
 primary: #1649b6;
 secendacy: #103481;
 nats: #fda863;
+*/
+
+/* 
+  styles all elements to use the fonts that are listed 
+  below and for the font size to be 62.5% of defult font of the browser being used
 */
 html {
   font-size: 62.5%;
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 
-/* styles body */
+/*
+ styles body to have: 
+ -a font size of 1.6 rems (size 16 fonts)
+ -have the color of the background to be an off white with a warm undertone
+ -to have margin (sapce outsie of the content) on the left and right to be 2 rems
+*/
 body {
   font-size: 1.6rem;
   /* changes the background color */
-  background-color: rgb(250, 249, 249);
+  background-color: rgb(248, 242, 237);
   /* adds padding */
   margin-left: 2rem;
   margin-right: 2rem;
 }
 
-/* styles nav */
+/* 
+  styles items on the nav bars to:
+  -have no list style (no bulet points)
+  -have an orange background
+  -have padding (the space arount the inside of the content before the content itself) of 1.5 rem
+  -have an overflow that is hidden which "makes the box surround the list items"-Jess Linsangan 
+  -have a text size of 2 rems
+*/
 nav ul {
   /* removes bullet point from the list */
   list-style-type: none;
@@ -27,43 +45,70 @@ nav ul {
   background-color: #fda863;
   /* padding and margin */
   padding: 1.5rem;
+
   overflow: hidden;
   font-size: 2rem;
 }
 
-/* styles list items in an unordered list in the nav bar */
+/* styles list items in an unordered list in the nav bar to go (or float) to the left */
 nav li {
   float: left;
 }
 
+/*
+  styles anchors in a nav to:
+  - be a block element
+  -have padding (the area between the border and the content) of 1.6 rems
+*/
 nav a {
   display: block;
   padding: 1.6rem;
 }
 
+/*
+  colors the focus and hover (when hovering or tabing on an elemnt) of the nav to be orange
+*/
 nav a:focus,
 nav a:hover {
   background-color: #eb9651;
 }
 
+/* 
+  have the main section of the website to have a margin 
+  (sapce outside of an element) on the left and right to be 1 rem 
+*/
 main {
   margin-left: 1rem;
   margin-right: 1rem;
 }
 
+/* stlyes the secended largest heading to be blue */
 h2 {
   color: #1649b6;
 }
+
+/* makes the line spacing of a paragraph to be 2 rems  */
+p {
+  /* changess the space between the lines */
+  line-height: 2rem;
+}
+
+/* syles the thid largest heading to be a dark blue */
 h3 {
   color: #103481;
 }
-/* styles the achores */
+
+/* styles the anchors to be black */
 a {
-  /* changes the text color to black */
   color: rgb(34, 34, 34);
 }
 
-/* styles the h1 */
+/* 
+  styles the largest heading to :
+  -be the color black
+  -to be in the center 
+  -
+*/
 h1 {
   /* changes text color to black */
   color: black;

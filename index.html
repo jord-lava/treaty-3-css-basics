@@ -17,36 +17,30 @@
 
     <!-- internal stylesheet -->
     <style>
-      /* styles the text on this webpage */
-      #main-body-text {
+      /* styles aything in the main section to be inline */
+      main {
         display: inline-block;
       }
 
-      /* styles all figures to go to the right */
+      /* styles all figures in the div with the id of right-figures to go or float to the right */
       #right-figures {
         float: right;
       }
 
-      /* styles images border */
+      /* styles images border to be .3 rem thick and rounds it by .2 rem */
       img {
         border: 0.3rem solid rgb(46, 46, 46);
         /* rounds border */
         border-radius: 0.2rem;
       }
 
-      /* styles the list of communities in treaty 3 */
+      /* styles the list items of communities in treaty 3 line spacing to be 2.5 rems*/
       ul li {
         /* changes the spaces between the lines */
-        line-height: 1.45;
+        line-height: 2.5rem;
       }
 
-      /* styles the text (non-headings) */
-      p {
-        /* changess the space between the lines */
-        line-height: 1;
-      }
-
-      /* styles the text inside the span (this text is on figcaption) */
+      /* styles the text inside the span (this text is on figcaption) to be underlined */
       span {
         /* underlines things */
         text-decoration: underline;
@@ -69,7 +63,7 @@
 
     <main>
       <!-- section for all text in body -->
-      <section id="main-body-text">
+      <section>
         <h2>About Treaty 3</h2>
         <!-- general infomation about Treaty 3 -->
 
@@ -106,7 +100,7 @@
               src="images/Map-of-Treaty-3-Area.png"
               width="438"
               hight="370"
-              alt="An image of a map of south east Manitoba and western ontiro that shows where treaty 3 is" />
+              alt="An image of a map of south east Manitoba and western ontario that shows where treaty 3 is" />
             <figcaption>
               <!-- discripions of image -->
               <em>Map of where <span>Treaty 3</span> is located</em>
@@ -117,7 +111,9 @@
             -->
           </figure>
         </div>
+      </section>
 
+      <section>
         <h3>Communities</h3>
         <p>List of communities in Treaty 3</p>
         <!-- list of all 28 communities in treaty 3 -->
