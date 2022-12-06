@@ -1,9 +1,21 @@
 /* main style sheet for this web site */
 
 /* 
-primary: #1649b6;
-secendacy: #103481;
-nats: #fda863;
+colors and why i added them to the website
+-(250, 247, 244) (off white)- is a background color for a light theme 
+  as there is lots of text on this website
+
+-#fda863 (orange-used in nav bar and footer)- the orange is there to represent ******
+-#eb9651 (darker orange -used in nav bar focuse and hover)- same as above^^
+
+-#1649b6 (blue- used for H2)- the blue is meant for the users to see as it stands 
+  out more then the other colors on the page, this makes the users eyes look at it.
+-#103481 (darker blue- used for H3)- this blue is used for the same reasons above^^
+
+-(34, 34, 34) (almost black-used for text in nav bar and footer that links to another page)
+  -nuteral color that is easy for user to read on this webpage
+-(0,0,0) (black-used for main text on webpage) same reasons as above^^
+
 */
 
 /* 
@@ -23,9 +35,7 @@ html {
 */
 body {
   font-size: 1.6rem;
-  /* changes the background color */
-  background-color: rgb(248, 242, 237);
-  /* adds padding */
+  background-color: rgb(250, 247, 244);
   margin-left: 2rem;
   margin-right: 2rem;
 }
@@ -39,13 +49,9 @@ body {
   -have a text size of 2 rems
 */
 nav ul {
-  /* removes bullet point from the list */
   list-style-type: none;
-  /* change the backcground color */
   background-color: #fda863;
-  /* padding and margin */
   padding: 1.5rem;
-
   overflow: hidden;
   font-size: 2rem;
 }
@@ -75,11 +81,13 @@ nav a:hover {
 
 /* 
   have the main section of the website to have a margin 
-  (sapce outside of an element) on the left and right to be 1 rem 
+  (sapce outside of an element) on the left and right to be 1 rem and 
+  padding (the space that seperates the border and content) to be 1 rem
 */
 main {
   margin-left: 1rem;
   margin-right: 1rem;
+  padding: 1rem;
 }
 
 /* stlyes the secended largest heading to be blue */
@@ -89,7 +97,6 @@ h2 {
 
 /* makes the line spacing of a paragraph to be 2 rems  */
 p {
-  /* changess the space between the lines */
   line-height: 2rem;
 }
 
@@ -106,31 +113,33 @@ a {
 /* 
   styles the largest heading to :
   -be the color black
-  -to be in the center 
-  -
+  -to be in the center/middle
+  -to have the text size of 3.2 rem
 */
 h1 {
-  /* changes text color to black */
   color: black;
-  /* aligns text to the center/middle */
   text-align: center;
   font-size: 3.2rem;
 }
-main {
-  padding: 1rem;
-}
 
-/* styles the footer */
+/* 
+  styles the footer to  have an orange background and to have 
+  padding (the space between the border and content) to be 1 rem on the top 
+  and bottem and 2rem on the left and right
+*/
 footer {
-  /* changes background color */
   background-color: #fda863;
-
-  /* padding and margin */
-  padding: 1rem 1rem;
+  padding: 1rem 2rem;
 }
-/* styles the list items in a unordered list in the footer */
+
+/* 
+  styles the list items in a unordered 
+  list in the footer to:
+  -have a text alinment to the left 
+  -be an inline elemnent
+  -no have no bullet points
+*/
 footer ul li {
-  /* aligns text to left */
   text-align: left;
   /* allows text to be in a line rather then on top of each other (like a list) */
   display: inline-block;
